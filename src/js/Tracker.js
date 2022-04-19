@@ -18,6 +18,7 @@ export default class Tracker {
   init() {
     this.addEventListeners();
     this.showEmptyPinnedList();
+    this.showEmptyTasksList();
   }
 
   addEventListeners() {
