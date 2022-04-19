@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+body {
+  margin: 0;
+}
+body {
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  background: #908f8c;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+}
+.task-tracker {
+  width: 40vw;
+  background-color: #ffffff;
+  padding: 2vw 10vw;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  text-size-adjust: auto;
+  margin-top: 1vw;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+  font-size: larger;
+}
+
+.input-form__input {
+  box-sizing: border-box;
+  width: 20vw;
+  margin-top: 5px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.error {
+  box-sizing: border-box;
+
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 5px;
+
+  color: #ffffff;
+  text-align: center;
+  background-color: #908f8c;
+}
+
+li {
+  list-style-type: none;
+  box-sizing: border-box;
+  width: 20vw;
+  margin: 5px 0px;
+  padding: 5px 15px;
+  border: 1px solid #3d3d3d;
+  border-radius: 5px;
+}
+
+.all-tasks-list .task {
+  background-image: url('../img/empty.png');
+  background-repeat: no-repeat;
+  background-position: center right 0.5vw;
+  background-size: 1.8vw;
+}
+
+.pinned-list .task {
+  background-image: url('../img/checked.png');
+  background-repeat: no-repeat;
+  background-position: center right 0.5vw;
+  background-size: 1.8vw;
+}
